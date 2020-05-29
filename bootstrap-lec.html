@@ -6,6 +6,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
+<style>
+    .media-photo {
+        height: 100px;
+    }
+</style>
 <body>
 <!--Beginning of 'navbar' element-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -62,7 +67,7 @@
 <section class="text-center">
     <h1>Featured Cars</h1>
     <div class="d-flex justify-content-around">
-        <div class="card m-3 shadow-lg" style="width: 30rem;">
+        <div class="card m-3 shadow" style="width: 30rem;">
             <img src="./img/amg.jpg" class="card-img-top" alt="amg car">
             <div class="card-body">
                 <h5 class="card-title">Mercedes</h5>
@@ -71,7 +76,7 @@
                 <a href="#" class="btn btn-primary">View Details</a>
             </div>
         </div>
-        <div class="card m-3 shadow-lg" style="width: 30rem;">
+        <div class="card m-3 shadow" style="width: 30rem;">
             <img src="./img/alfa.jpg" class="card-img-top" alt="alfa car">
             <div class="card-body">
                 <h5 class="card-title">Alfa Romeo</h5>
@@ -80,7 +85,7 @@
                 <a href="#" class="btn btn-primary">View Details</a>
             </div>
         </div>
-        <div class="card m-3 shadow-lg" style="width: 30rem;">
+        <div class="card m-3 shadow" style="width: 30rem;">
             <img src="./img/lambo.jpg" class="card-img-top" alt="lambo car">
             <div class="card-body">
                 <h5 class="card-title">Lamborghini</h5>
@@ -92,7 +97,38 @@
     </div>
 </section>
 <!--End of 'card' elements-->
-
+<!--Beginning of 'media list' elements-->
+<section class="text-center">
+    <h1 class="my-3">What our customers are raving about!</h1>
+    <ul class="d-flex justify-content-evenly mx-3">
+        <li class="media m-3 d-flex flex-column align-items-center">
+            <img src="./img/hung.png" class="media-photo m-3" alt="hung's photo">
+            <div class="media-body">
+                <h5 class="mt-0 mb-1">Hung - car enthusiast </h5>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus blanditiis consequuntur enim fuga in
+                nostrum sunt tempora veniam veritatis.
+            </div>
+        </li>
+        <li class="media m-3 d-flex flex-column align-items-center">
+            <img src="./img/david.png" class="media-photo m-3" alt="david's photo">
+            <div class="media-body">
+                <h5 class="mt-0 mb-1">David - business owner</h5>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores autem dolore eos itaque nihil,
+                saepe vero. Ab architecto aspernatur beatae consequatur consequuntur delectus dolores enim esse facere
+                illum nostrum nulla numquam odit quibusdam repellendus, temporibus?
+            </div>
+        </li>
+        <li class="media m-3 d-flex flex-column align-items-center">
+            <img src="./img/daniel.png" class="media-photo m-3" alt="daniel's photo">
+            <div class="media-body">
+                <h5 class="mt-0 mb-1">Daniel - movie star</h5>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci asperiores aspernatur eos harum iure
+                minima odit officia praesentium quam veritatis. Inventore ipsam, libero.
+            </div>
+        </li>
+    </ul>
+</section>
+<!--End of 'media list' elements-->
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
